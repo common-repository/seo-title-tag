@@ -1,0 +1,21 @@
+3.5.9 - error 'Call to undefined function is_plugin_active' noticed and fixed by Robert (@hartirobert) at https://wordpress.org/support/topic/the-site-is-experiencing-technical-difficulties-80/
+3.5.8 - fixed error notice when post does not have a Yoast SEO metatags
+      - fixed limit of 5 posts when downloading CSV. Download them all.
+      - add domainname in downloaded CSV filename
+3.5.7 - If Yoast SEO plugin is detected and active, we will stand on its shoulders. (we will use it by default)
+      - rename downloaded CSV file to match plugin name
+      - upload pages/posts completed
+      - fixed error when determining the file extension
+      - when opening page/post, clicking on ID, it will open them in new window
+      - show ALL posts (published, drafts), and add "(drafts)" next to title of draft post
+      - fixed some internal calls
+      - reorganized plugin code to be more efficient, using class package
+      - fix plugin to use custom_meta_description_key as set by use in web ui
+      - fix plugin to use custom_title_key as set by user in web ui
+3.5.6 - fixed few errors in background, regarding undefined values and old PHP
+code
+3.5.5 - fixed sending testimonials (updated form and logic)
+3.5.4 - updated email for testimonials to 'me@stephanspencer.com'
+3.5.3 - added plugin icon/2
+3.5.2 - added plugin icon
+

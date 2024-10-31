@@ -1,0 +1,28 @@
+form div{position:relative;}
+form .counter{
+	position:absolute;
+	right:0;
+	top:0;
+	font-size:20px;
+	font-weight:bold;
+	color:#FFA500;
+	}
+form .warning{color:#600;}	
+form .exceeded{color:#e00;}	
+form .yellow1{color:yellow;}	
+form .green{color:green;}
+form .red{color:red;}
+.form_inputfield{float:left;width:100%;}
+.form_inputfield li{float:left;width:100%;}
+.form_inputfield li label{float: left;line-height: 24px;margin-right: 5px;width: 67px;}
+.form_inputfield li input[type="submit"]{margin-left:73px;}
+fieldset.testimonial{border: 1px solid #CCCCCC;border-radius: 5px 5px 5px 5px;float: left;margin: 0;padding:5px 8px;}
+fieldset.testimonial legend{font-weight:bold;color:#464646;}
+.form_inputfield li label.error{float:left;width:auto;color:#ff0000;margin-left:75px;}
+
+/*** Dropdown center***/
+#myselect{
+	margin-right:24px;
+}
+.form-table input.code {width:227px;}
+
